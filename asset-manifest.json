@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demo/static/css/main.33215994.css",
+    "main.js": "/demo/static/js/main.baddb0ef.js",
+    "static/media/about-banner.jpg": "/demo/static/media/about-banner.ee59a6fdfb6abaa91397.jpg",
+    "static/media/react-image.jpg": "/demo/static/media/react-image.2903ca409d085693c3d0.jpg",
+    "static/media/about-us.jpg": "/demo/static/media/about-us.e9162c6cb6965d60fbce.jpg",
+    "static/media/hero-image.jpg": "/demo/static/media/hero-image.8ecb16737adc0397e3fd.jpg",
+    "static/media/quiz-banner.jpg": "/demo/static/media/quiz-banner.15573d47829be2b6a83c.jpg",
+    "static/media/courses-banner.jpg": "/demo/static/media/courses-banner.05f75a5bc007c9f0f219.jpg",
+    "static/media/html-course.jpg": "/demo/static/media/html-course.8b0f0fd6c27708332614.jpg",
+    "static/media/contact-us.jpg": "/demo/static/media/contact-us.266f055546e9e280cdba.jpg",
+    "static/media/javascript-image.jpeg": "/demo/static/media/javascript-image.588ee17d2610cb550c10.jpeg",
+    "index.html": "/demo/index.html",
+    "main.33215994.css.map": "/demo/static/css/main.33215994.css.map",
+    "main.baddb0ef.js.map": "/demo/static/js/main.baddb0ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33215994.css",
+    "static/js/main.baddb0ef.js"
+  ]
+}
