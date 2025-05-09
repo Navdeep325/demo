@@ -1,0 +1,111 @@
+.home-header {
+  background-image: url('../images/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.home-header .overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 2rem;
+  border-radius: 12px;
+}
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.home-header p {
+  font-size: 1.2rem;
+}
+.about {
+  background-color: #f5fbfc;
+  padding: 100px 0px 100px 0px;
+}
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+.about-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.about-content {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+}
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.about-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+.btn {
+  background-color: #0984e3;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.courses {
+  padding: 2rem;
+  text-align: center;
+}
+.courses h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.course-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover{
+  transform: translateY(-5px);
+}
+.card img{
+  width:100%;
+}
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+/* Responsive */
+@media (max-width: 768px){
+  .home-header .overlay {
+   width:70%;
+  }
+  .home-header h1 {
+    font-size: 1.5rem;
+  }
+}

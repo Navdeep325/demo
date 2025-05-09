@@ -1,0 +1,117 @@
+.contact-header {
+  background-image: url('../images/contact-us.jpg'); 
+  /* https://img.freepik.com/free-photo/office-desktop-with-laptop-business-man_23-2148174087.jpg?t=st=1744562998~exp=1744566598~hmac=27652257feb4792378b120a5cec19de9eec2b57cbe6fbc34f9885eaddbb776f2&w=1380 */
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+.contact-header .overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 2rem;
+  border-radius: 12px;
+  width:30%;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 550px;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+.contact form:hover {
+  transform: translateY(-4px);
+}
+.contact input,
+.contact textarea {
+  margin: 0.75rem 0;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #003366;
+  outline: none;
+}
+.contact button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact button:hover {
+  background-color: #0055aa;
+}
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.card-box {
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card-box:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  margin-bottom: 1rem;
+}
+
+.icon-img {
+  width: 40px;
+  height: 40px;
+}
+
+.card-box h3 {
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-box p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-header .overlay {
+   width:70%;
+  }
+}
